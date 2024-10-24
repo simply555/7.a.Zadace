@@ -1,63 +1,59 @@
-<!DOCTYPE html>
-<html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Školske Zadace</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS if you have one -->
-    <script>
-        // Funkcija za dodavanje zadatka
-        function addHomework() {
-            const dateInput = document.getElementById('dateInput').value;
-            const homeworkInput = document.getElementById('homeworkInput').value;
-            const homeworkList = document.getElementById('homeworkList');
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-            // Provjera je li datum i zadatak unesen
-            if (dateInput && homeworkInput) {
-                const listItem = document.createElement('li');
-                listItem.textContent = `${dateInput}: ${homeworkInput}`;
-                homeworkList.appendChild(listItem);
-                document.getElementById('homeworkInput').value = ''; // Očisti unos
-            } else {
-                alert('Molimo unesite datum i domaću zadaću!');
-            }
-        }
-    </script>
-</head>
-<body>
-    <header>
-        <h1>Dobrodošli u Školu</h1>
-        <nav>
-            <ul>
-                <li>Zadace</li>
-                <li>Najave</li>
-                <li>Kontakt</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="homework">
-            <h2>Zadace za danas</h2>
-            <div>
-                <input type="date" id="dateInput" placeholder="Datum" />
-                <input type="text" id="homeworkInput" placeholder="Domaća zadaća" />
-                <button onclick="addHomework()">Dodaj zadatak</button>
-            </div>
-            <ul id="homeworkList">
-                <!-- Ovdje će se dodavati domaće zadaće -->
-            </ul>
-        </section>
-        <section id="announcements">
-            <h2>Najave</h2>
-            <p>Nema važnih najava danas.</p>
-        </section>
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <p>Možete me kontaktirati putem e-maila: <span>youremail@example.com</span></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Školska stranica</p>
-    </footer>
-</body>
-</html>
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+input[type="date"], input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(50% - 20px);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #35424a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b5a66;
+}
+
+ul {
+    padding-left: 20px;
+}
+
