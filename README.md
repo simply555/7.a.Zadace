@@ -1,10 +1,28 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Školske Zadace</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS if you have one -->
+    <script>
+        // Funkcija za dodavanje zadatka
+        function addHomework() {
+            const dateInput = document.getElementById('dateInput').value;
+            const homeworkInput = document.getElementById('homeworkInput').value;
+            const homeworkList = document.getElementById('homeworkList');
+
+            // Provjera je li datum i zadatak unesen
+            if (dateInput && homeworkInput) {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${dateInput}: ${homeworkInput}`;
+                homeworkList.appendChild(listItem);
+                document.getElementById('homeworkInput').value = ''; // Očisti unos
+            } else {
+                alert('Molimo unesite datum i domaću zadaću!');
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -20,9 +38,14 @@ DOCTYPE html>
     <main>
         <section id="homework">
             <h2>Zadace za danas</h2>
-            <p>1. Čitanje stranica 10-15 iz udžbenika.</p>
-            <p>2. Rješavanje zadatka 5 iz matematike.</p>
-            <!-- Add more assignments as needed -->
+            <div>
+                <input type="date" id="dateInput" placeholder="Datum" />
+                <input type="text" id="homeworkInput" placeholder="Domaća zadaća" />
+                <button onclick="addHomework()">Dodaj zadatak</button>
+            </div>
+            <ul id="homeworkList">
+                <!-- Ovdje će se dodavati domaće zadaće -->
+            </ul>
         </section>
         <section id="announcements">
             <h2>Najave</h2>
