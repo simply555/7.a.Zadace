@@ -31,14 +31,14 @@
             <h2>Najave</h2>
             <p>Važna najava za 25. oktobar 2024.: Ispit iz Biologije!</p>
             <ul>
-                <li>29. oktobar 2024.: Roditeljski sastanak.</li>
-                <li>1. novembar 2024.: Izlet u prirodu.</li>
-                <li>5. novembar 2024.: Podela ocena.</li>
+                <li>29. oktobar 2024.: /.</li>
+                <li>1. novembar 2024.: /.</li>
+                <li>5. novembar 2024.: /.</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Kontakt</h2>
-            <p>Možete me kontaktirati putem e-maila: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>Možete me kontaktirati putem e-maila: <a href="mailto:7.a.staff@gmail.com">youremail@example.com</a></p>
         </section>
     </main>
     <footer>
