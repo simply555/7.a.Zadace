@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Dobrodošli u Školu</h1>
+        <h1>Dobrodošli u 7.a</h1>
         <nav>
             <ul>
                 <li><a href="#homework">Zadace</a></li>
@@ -22,33 +22,26 @@
         <section id="homework">
             <h2>Zadace za danas</h2>
             <ul>
-                <li>1. Čitanje stranica 10-15 iz udžbenika.</li>
-                <li>2. Rješavanje zadatka 5 iz matematike.</li>
-                <li>3. Pisanje sastava na temu "Moja omiljena knjiga".</li>
-                <li>4. Vježbe iz engleskog jezika (str. 20-25).</li>
-                <li>5. Rješavanje zadatka 12 iz prirode.</li>
+                <li>1. Matematika; Str 52 : Zadatci : 52 f,54c,55 e f g h i j,56 a c e, 57 !
+                <li>2. Biologija ; ništa!
+                <li>3. Kemija; dovršit listić!
             </ul>
         </section>
         <section id="announcements">
             <h2>Najave</h2>
-            <p>Nema važnih najava danas.</p>
+            <p>Važna najava sutra: ispit iz Biologije!.</p>
             <ul>
-                <li>Rok za predaju projekata je 15. novembar.</li>
-                <li>Izlet u zoološki vrt planiran je za 30. novembar.</li>
-            </ul>
+           <ul>
         </section>
         <section id="resources">
             <h2>Resursi</h2>
             <p>Pogledajte sledeće resurse za dodatnu pomoć:</p>
             <ul>
-                <li><a href="https://www.khanacademy.org">Khan Academy</a></li>
-                <li><a href="https://www.edx.org">edX</a></li>
-                <li><a href="https://www.coursera.org">Coursera</a></li>
             </ul>
         </section>
         <section id="contact">
             <h2>Kontakt</h2>
-            <p>Možete me kontaktirati putem e-maila: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>Možete me kontaktirati putem e-maila: <a href="7.a.staff@gmail.com"></a></p>
             <form action="#" method="post">
                 <label for="name">Ime:</label>
                 <input type="text" id="name" name="name" required>
