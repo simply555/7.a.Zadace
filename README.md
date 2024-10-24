@@ -38,7 +38,7 @@
         </section>
         <section id="contact">
             <h2>Kontakt</h2>
-            <p>Možete me kontaktirati putem e-maila: <a href="mailto:7.a.staff@gmail.com">youremail@example.com</a></p>
+            <p>Možete me kontaktirati putem e-maila: <a href="mailto:7.a.staff@gmail.com">7.a.staff@gmail.com</a></p>
         </section>
     </main>
     <footer>
