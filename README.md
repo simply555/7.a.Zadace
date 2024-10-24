@@ -14,7 +14,6 @@
                 <li><a href="#homework">Zadaci</a></li>
                 <li><a href="#announcements">Najave</a></li>
                 <li><a href="#contact">Kontakt</a></li>
-                <li><a href="#resources">Resursi</a></li>
             </ul>
         </nav>
     </header>
