@@ -29,11 +29,11 @@
         </section>
         <section id="announcements">
             <h2>Najave</h2>
-            <p>Važna najava za 25. oktobar 2024.: Ispit iz Biologije!</p>
+            <p>Važna najava za 25. listopad 2024.: Ispit iz Biologije!</p>
             <ul>
-                <li>29. oktobar 2024.: /.</li>
-                <li>1. novembar 2024.: /.</li>
-                <li>5. novembar 2024.: /.</li>
+                <li>29. listopad 2024.: /.</li>
+                <li>1. studeni 2024.: /.</li>
+                <li>5. studeni 2024.: /.</li>
             </ul>
         </section>
         <section id="contact">
