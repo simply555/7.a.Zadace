@@ -1,4 +1,5 @@
 
+<!DOCTYPE html>
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
@@ -19,17 +20,29 @@
     </header>
     <main>
         <section id="homework">
-            <h2>Zadaci za sutra</h2>
+            <h2>Zadaci za sutra (25. oktobar 2024.)</h2>
             <ul>
-                <li>1. Matematika; Str 52 : Zadatci : 52 f,54c,55 e f g h i j,56 a c e, 57 !
-                <li>2. Biologija ; ništa!
-                <li>3. Kemija; dovršit listić!
+                <li>1. Matematika: Str. 52 - Zadatci: 52f, 54c, 55e, f, g, h, i, j; 56a, c, e; 57!</li>
+                <li>2. Biologija: Ništa!</li>
+                <li>3. Kemija: Dovršiti listić!</li>
             </ul>
         </section>
         <section id="announcements">
             <h2>Najave</h2>
-            <p>Važna najava sutra: ispit iz Biologije!.</p>
+            <p>Važna najava za 25. oktobar 2024.: Ispit iz Biologije!</p>
             <ul>
-           <ul>
-        
-           
+                <li>29. oktobar 2024.: Roditeljski sastanak.</li>
+                <li>1. novembar 2024.: Izlet u prirodu.</li>
+                <li>5. novembar 2024.: Podela ocena.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Možete me kontaktirati putem e-maila: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Školska stranica 7.a</p>
+    </footer>
+</body>
+</html>
