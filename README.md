@@ -22,8 +22,8 @@
         <section id="homework">
             <h2>Zadaci za sutra (25. listopad 2024.)</h2>
             <ul>
-                <li>1. Matematika: Str. 55 - Zadatci: 53 i 61 i 62 zadatak!</li>
-                <li>2. Povijest: Dovršiti zadatak sa sata (Napisati dijalog)</li>
+                <li>1. Matematika: Dovršiti listić</li>
+                <li>2. Fizika prepistati ako niste!</li>
             </ul>
         </section>
         <section id="announcements">
