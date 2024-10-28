@@ -22,9 +22,8 @@
         <section id="homework">
             <h2>Zadaci za sutra (25. listopad 2024.)</h2>
             <ul>
-                <li>1. Matematika: Str. 52 - Zadatci: 52f, 54c, 55e, f, g, h, i, j; 56a, c, e; 57!</li>
-                <li>2. Biologija: Ništa!</li>
-                <li>3. Kemija: Dovršiti listić!</li>
+                <li>1. Matematika: Str. 55 - Zadatci: 53 i 61 i 62 zadatak!</li>
+                <li>2. Povijest: Dovršiti zadatak sa sata (Napisati dijalog)</li>
             </ul>
         </section>
         <section id="announcements">
