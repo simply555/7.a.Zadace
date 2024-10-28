@@ -20,7 +20,7 @@
     </header>
     <main>
         <section id="homework">
-            <h2>Zadaci za sutra (25. listopad 2024.)</h2>
+            <h2>Zadaci za sutra (29. listopad 2024.)</h2>
             <ul>
                 <li>1. Matematika: Dovršiti listić</li>
                 <li>2. Fizika prepistati ako niste!</li>
