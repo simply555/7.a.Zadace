@@ -23,7 +23,7 @@
             <h2>Zadaci za sutra (29. listopad 2024.)</h2>
             <ul>
                 <li>1. Matematika: Dovršiti listić</li>
-                <li>2. Fizika prepistati ako niste!</li>
+                <li>2. Fizika odgovoriti na pitanja u Teams-u 1-5 pitanje!</li>
             </ul>
         </section>
         <section id="announcements">
